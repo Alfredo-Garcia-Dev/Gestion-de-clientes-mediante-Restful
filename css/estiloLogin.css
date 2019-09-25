@@ -1,0 +1,44 @@
+
+body {
+	margin: 0;
+  	margin-bottom: 40px;
+  	background: url("../imagenes/imgfondo.png") no-repeat fixed left;	
+}
+.jumbotron{
+	background: rgba(90,80,70,0.5);
+}
+.display-4 {
+	text-align:center;
+    background: rgba(194,195,198,0.6)
+}
+.alert {
+	text-align:center;
+    background: rgba(194,195,198,0.6)
+}
+#formRegistro {
+	max-width: 500px;
+	text-align: center;
+	position: absolute;
+ 	top: 100px;
+ 	right: 50px;
+}
+#mostrarmodal{
+	max-width: 300px;
+	position: absolute;
+	top: 50px;
+	left: 550px;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+footer {
+  background-color: black;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 40px;
+  color: white;
+}
